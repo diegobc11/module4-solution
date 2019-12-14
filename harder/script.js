@@ -38,7 +38,7 @@ for (var i = 0; i < names.length; i++) {
 
   var firstLetterLC = firstLetter.toLowerCase();   //devuelve la inicial en minuscula.
 
-  if (firstLetterLC == "j" || firstLetterLC == "J") {
+  if (firstLetterLC == "j") {
     byeSpeaker.speak(names[i]);
   } else {
     helloSpeaker.speak(names[i]);
